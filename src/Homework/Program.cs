@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -14,7 +15,7 @@ namespace Homework
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-             #region SeedData init
+            #region SeedData init
             //下面打開，上面要註解掉
             //var host = CreateHostBuilder(args).Build();
 
@@ -24,9 +25,10 @@ namespace Homework
 
             //    try
             //    {
-            //        var context = services.GetRequiredService<BlogDbContext>();
-            //        context.Database.EnsureCreated();
-            //        SeedData.Initialize(services);
+            //        SkillTreeMVC.Service.SeedData.Initialize(services);
+            //        //var context = services.GetRequiredService<BlogDbContext>();
+            //        //context.Database.EnsureCreated();
+            //        //SeedData.Initialize(services);
             //    }
             //    catch (Exception ex)
             //    {

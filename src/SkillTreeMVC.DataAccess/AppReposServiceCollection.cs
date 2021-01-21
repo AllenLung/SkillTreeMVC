@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SkillTreeMVC.DataAccess.Data;
+using SkillTreeMVC.DataAccess.Interface;
+using SkillTreeMVC.DataAccess.Repo;
 
 namespace SkillTreeMVC.DataAccess
 {
@@ -11,6 +13,7 @@ namespace SkillTreeMVC.DataAccess
         {
             services.AddDbContext<BlogDbContext>(opt => opt.UseSqlServer(
                 (configuration.GetConnectionString("DefaultConnection"))));
+            services.AddScoped<IBlogRepo, BlogRepo>();
         }
     }
 }

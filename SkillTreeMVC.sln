@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework", "src\Homework\Ho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTreeMVC.Controller", "src\SkillTreeMVC.Controller\SkillTreeMVC.Controller.csproj", "{ED40AAA8-7DA7-499B-A23A-D2AA24975A2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTreeMVC.DataAccess", "src\SkillTreeMVC.DataAccess\SkillTreeMVC.DataAccess.csproj", "{05870621-6DBF-4992-BB2F-7E7FE7F20EDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTreeMVC.DataAccess", "src\SkillTreeMVC.DataAccess\SkillTreeMVC.DataAccess.csproj", "{05870621-6DBF-4992-BB2F-7E7FE7F20EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTreeMVC.Service", "src\SkillTreeMVC.Service\SkillTreeMVC.Service.csproj", "{5DAA80DA-B07D-4D84-9AA3-4CE7E8FD3E73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTreeMVC.Service", "src\SkillTreeMVC.Service\SkillTreeMVC.Service.csproj", "{5DAA80DA-B07D-4D84-9AA3-4CE7E8FD3E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTreeMVC.Domain", "src\SkillTreeMVC.Domain\SkillTreeMVC.Domain.csproj", "{705D4A0B-AE26-44D6-AAFF-E1CDC73C4904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{5DAA80DA-B07D-4D84-9AA3-4CE7E8FD3E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DAA80DA-B07D-4D84-9AA3-4CE7E8FD3E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DAA80DA-B07D-4D84-9AA3-4CE7E8FD3E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705D4A0B-AE26-44D6-AAFF-E1CDC73C4904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705D4A0B-AE26-44D6-AAFF-E1CDC73C4904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705D4A0B-AE26-44D6-AAFF-E1CDC73C4904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705D4A0B-AE26-44D6-AAFF-E1CDC73C4904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{ED40AAA8-7DA7-499B-A23A-D2AA24975A2E} = {47DC4BC4-BD01-446C-AF2F-9D6A224293B6}
 		{05870621-6DBF-4992-BB2F-7E7FE7F20EDE} = {828C3228-EA92-4AFE-9793-6CE8A5D83B1A}
 		{5DAA80DA-B07D-4D84-9AA3-4CE7E8FD3E73} = {3DF85B29-5D4F-43E0-A46A-02A003318237}
+		{705D4A0B-AE26-44D6-AAFF-E1CDC73C4904} = {2DB35DC8-DDE7-4796-930E-64F5F610B07A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF41C17F-0ED6-47F4-966F-0209A20F3A15}

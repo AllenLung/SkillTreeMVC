@@ -1,0 +1,19 @@
+﻿@model List<SkillTreeMVC.Domain.ViewModels.Blog.Articles>
+@{
+}
+
+@foreach (var item in Model)
+{
+<div class="card mb-4">
+    <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+    <div class="card-body">
+        <h2 class="card-title">@item.Title</h2>
+        <div class="card-text">@Html.Raw(item.Body)</div>
+        <a href="#" class="btn btn-primary">@item.Tags</a>
+    </div>
+    <div class="card-footer text-muted">
+        Posted on January 1, 2017 by
+        <a href="#">Start Bootstrap</a>
+    </div>
+</div>
+}
